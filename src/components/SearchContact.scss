@@ -20,44 +20,45 @@ $gray: lightGray;
 
         }
     }
-    .all-friends{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 15px;
-        border-bottom: 1px solid $gray;
-        .friend-image{
-            height: 45px;
-            width: 45px;
-            border-radius: 50%;
-            // border: 1px solid red;
-            overflow: hidden;
-            img{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
-        }
-        .friend-text{
-            
-            h2{
-                font-size: 16px;
-            }
-            p{
-                color: gray;
-                font-size: 14px;
-                display: flex;
-                // justify-content: center;
-                align-items: center;
-                div{
-                    height: 5px;
-                    width: 5px;
-                    border-radius: 50%;
-                    background: green;
-                    margin-right: 5px;
+    .users{
+        .all-friends{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            border-bottom: 1px solid $gray;
+            .friend-image{
+                height: 45px;
+                width: 45px;
+                border-radius: 50%;
+                // border: 1px solid red;
+                overflow: hidden;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
-
+            .friend-text{
+                
+                h2{
+                    font-size: 16px;
+                }
+                p{
+                    color: gray;
+                    font-size: 14px;
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    div{
+                        height: 5px;
+                        width: 5px;
+                        border-radius: 50%;
+                        background: green;
+                        margin-right: 5px;
+                    }
+                }
+            }    
         }
     }
 }

@@ -1,0 +1,50 @@
+$gray: lightGray;
+
+.conversation{
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    min-height: 90vh;
+    .your-conversation{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $gray;
+    }
+    .message-section{
+        padding: 10px;
+        height: calc(90vh - 100px);
+    }
+    .send-message{
+        position: relative;
+        padding: 19px;
+        border-top: 1px solid $gray;
+        // border-bottom: 1px solid $gray;
+        .chat-input{
+            width: 90%;
+            border: none;
+            outline: none;
+            background: rgb(245, 245, 245);
+        }
+        .send-message-btn{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            right: 20px;
+            top: -50%;
+            position: absolute;
+            border: none;
+            outline: none;
+            background: #4dc8da;
+            color: white;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+
+    }
+}

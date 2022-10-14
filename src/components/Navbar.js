@@ -4,7 +4,7 @@ import './Navbar.scss';
 
 function Navbar(){
     return(
-        <header className="bg-blue">
+        <header className="bg-blue p-fixed">
             <div className='container'>
                 <div className='navigation'>
                     <div className='nav-menu'>

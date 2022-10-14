@@ -13,60 +13,92 @@ function SearchContact(){
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="search" class="search-input" />
                 </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User2} alt=""/>
+                <div className="users">
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User2} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
                     </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User2} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User2} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User2} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User1} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User3} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User4} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User2} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User4} alt="user-picture"/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
                     </div>
                 </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User1} alt=""/>
-                    </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
-                    </div>
-                </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User3} alt=""/>
-                    </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
-                    </div>
-                </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User4} alt=""/>
-                    </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
-                    </div>
-                </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User2} alt=""/>
-                    </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
-                    </div>
-                </div>
-                <div className="all-friends">
-                    <div className="friend-image">
-                    <img src={User4} alt=""/>
-                    </div>
-                    <div className="friend-text">
-                        <h2>Kate pary</h2>
-                        <p><div></div>online</p>
-                    </div>
-                </div>
+               
+                
             </div>
         </section>
     )
