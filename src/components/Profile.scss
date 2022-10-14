@@ -1,0 +1,52 @@
+$gray: gray;
+$lightGray: #f6f7f9;
+$black: black;
+
+.user-profile{
+    padding: 10px;
+    .profile-details{
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .profile-image{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            // border: 1px solid red;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .profile-text{
+            text-align: center;
+            padding: 10px 0px;
+            p{ 
+                font-size: 20px;
+            }
+            .user-designation{
+                color: gray;
+            }
+            
+        }
+    }
+    .list-container{
+        .list-itemss{
+            display: flex;
+            align-items: center;
+            font-size: 18px;  
+            color: gray;
+            padding:15px;
+            &:hover{
+                background: white;
+                color: $black;
+            }
+            a{
+                margin-left: 10px;
+            }
+        }
+    }
+}

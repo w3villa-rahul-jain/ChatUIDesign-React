@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import SearchContact from "./components/SearchContact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar /> 
+    <div className='main-chat-section'>
+    <div className='chat-common-props'>
+      <Profile />
+    </div>
+    <div className='chat-common-props bx-one-gray'>
+      <SearchContact />
+    </div>
+    <div className='chat-common-props'>
+
+    </div>
+    </div> 
     </div>
   );
 }
