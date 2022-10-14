@@ -1,4 +1,5 @@
 import './Chat.scss';
+import Conversation from './Conversation';
 
 function Chat(){
     return(
@@ -9,16 +10,13 @@ function Chat(){
                     <i class="fa-solid fa-trash"></i>
                 </div>
                 <div className="message-section">
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
-                   <p>message</p> 
+                <Conversation />
+                <Conversation />
+                <Conversation />
+                <Conversation />
+                <Conversation />
+                <Conversation />
+                <Conversation />
                 </div>
                 <div className="send-message">
                     <input type="text" className="chat-input" placeholder='Reply to Katy..'/>

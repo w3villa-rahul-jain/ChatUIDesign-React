@@ -15,6 +15,7 @@ $gray: lightGray;
     .message-section{
         padding: 10px;
         height: calc(90vh - 100px);
+        overflow-y: scroll;
     }
     .send-message{
         position: relative;

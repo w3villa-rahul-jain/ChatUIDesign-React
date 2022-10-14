@@ -23,9 +23,10 @@ function SearchContact(){
                             <p><div></div>online</p>
                         </div>
                     </div>
+                    
                     <div className="all-friends">
                         <div className="friend-image">
-                        <img src={User2} alt=""/>
+                        <img src={User1} alt=""/>
                         </div>
                         <div className="friend-text">
                             <h2>Kate pary</h2>
@@ -34,7 +35,16 @@ function SearchContact(){
                     </div>
                     <div className="all-friends">
                         <div className="friend-image">
-                        <img src={User2} alt=""/>
+                        <img src={User3} alt=""/>
+                        </div>
+                        <div className="friend-text">
+                            <h2>Kate pary</h2>
+                            <p><div></div>online</p>
+                        </div>
+                    </div>
+                    <div className="all-friends">
+                        <div className="friend-image">
+                        <img src={User4} alt=""/>
                         </div>
                         <div className="friend-text">
                             <h2>Kate pary</h2>
@@ -62,15 +72,6 @@ function SearchContact(){
                     <div className="all-friends">
                         <div className="friend-image">
                         <img src={User3} alt=""/>
-                        </div>
-                        <div className="friend-text">
-                            <h2>Kate pary</h2>
-                            <p><div></div>online</p>
-                        </div>
-                    </div>
-                    <div className="all-friends">
-                        <div className="friend-image">
-                        <img src={User4} alt=""/>
                         </div>
                         <div className="friend-text">
                             <h2>Kate pary</h2>

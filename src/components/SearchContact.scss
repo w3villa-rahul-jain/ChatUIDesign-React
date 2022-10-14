@@ -21,6 +21,8 @@ $gray: lightGray;
         }
     }
     .users{
+        overflow-y: scroll;
+        height: calc(90vh - 50px);
         .all-friends{
             display: flex;
             align-items: center;
